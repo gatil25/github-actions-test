@@ -4,6 +4,8 @@ name: Hello workflow
 on:
   push:
     branches: [main]
+    paths:
+      - '**.html'
 
 # These are jobs isnide workflow
 jobs:
